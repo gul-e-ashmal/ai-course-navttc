@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('beach.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    width: 45%;
+    padding-top: 55px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.container {
+    background-color: #E8F5E9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form {
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 10px 0px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    text-shadow: 4px 0px 2px black;
+    animation: gul 3000ms ease-in-out 2s infinite alternate;
+}
+@keyframes gul {
+    0%{
+        color: white;
+        opacity: 1;
+    }
+    25%{
+        color: red;
+        opacity: 0;
+    }
+    50%{
+        color: blue;
+        opacity: 1;
+    }
+    75%{
+        color: green;
+        opacity: 0;
+    }
+    100%{
+        color: grey;
+        opacity: 1;
+    }
+}
+
+label {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    padding: 15px 0px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border: none;
+    outline: none;
+}
+
+input[type="text"],
+input[type="email"] {
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    margin-left: 25px;
+    padding: 04px 2px;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+input::placeholder {
+    color: grey;
+}
+
+textarea {
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    margin-left: 15px;
+    padding: 04px 2px;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+button {
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 160px;
+    transition: all 2s;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    letter-spacing: 2px;
+
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: medium;
+    letter-spacing: 2px;
+    color: white;
+    background-color: blue;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    transition: all 2s;
+}
+button:hover{
+    font-weight: bold;
+    font-size: large;
+    width: 200px;
+    height: 35px;
+}
+input[type="submit"]:hover{
+    font-weight: bold;
+    font-size: large;
+    width: 200px;
+    height: 35px;
+}
