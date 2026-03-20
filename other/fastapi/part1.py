@@ -51,6 +51,7 @@ app = FastAPI()
 @app.get("/models/{model_name}")
 async def get_model(model_name: ModelName):
     # model_name is a value not a variable name
+    # while ModelName is a class-- object
     if model_name is ModelName.alexnet:
         return {"model_name": model_name, "message": "Deep Learning FTW!"}
 

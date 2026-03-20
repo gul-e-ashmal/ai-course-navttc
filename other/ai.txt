@@ -1,0 +1,7 @@
+Python for AI, not for web fluff
+
+Master NumPy, Pandas, and Matplotlib/Seaborn for data manipulation and visualization. Stop “just importing”; actually understand broadcasting, indexing, and vectorized operations.
+
+Learn PyTorch deeply (or TensorFlow if you insist). Not just tutorials—understand tensors, gradients, autograd, and how models update weights. This is the engine of AI.
+
+Understand how to structure AI experiments: training loops, evaluation metrics, overfitting, underfitting.
